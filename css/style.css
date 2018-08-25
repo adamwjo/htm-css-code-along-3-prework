@@ -26,8 +26,16 @@ p { /*select all <p> */
     text-align: right;
   }
 
+/* Class selector (has a "." infront) */
   .milk-text {
     font: bold 2.6em 'Elsie Swash Caps', cursive;
     color: white;
     text-shadow: 0 2px 3px #000;
+  }
+
+  /* ID selector (can only be applied to one element per page
+  has a "#" in front)*/
+
+  #logo {
+    background: aqua;
   }
