@@ -39,3 +39,14 @@ p { /*select all <p> */
   #logo {
     background: aqua;
   }
+
+  /*Descendant selector*/
+
+  #logo h1 {
+    /*will only style h1 elements inside the #logo seleector*/
+    font-family: 'Clicker Script', cursive;
+  }
+
+  #logo h2 {
+    font-family: 'Elsie Swash Caps', cursive;
+  }
